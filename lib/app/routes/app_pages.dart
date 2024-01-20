@@ -1,7 +1,7 @@
 // ignore_for_file: constant_identifier_names
 
 import 'package:codot/app/bindings/home_page_binding.dart';
-import 'package:codot/app/view/home_page.dart';
+import 'package:codot/app/view/main_page.dart';
 import 'package:get/get.dart';
 
 part './app_routes.dart';
@@ -15,7 +15,7 @@ class AppPages {
   static final pages = [
     GetPage(
       name: _Paths.MAIN,
-      page: () => HomePage(),
+      page: () => MainPage(),
       binding: HomePageBinding(),
       transition: Transition.fadeIn,
     ),

@@ -3,6 +3,7 @@
 import 'package:codot/app/controller/main_page_controller.dart';
 import 'package:codot/app/core/base/base_view.dart';
 import 'package:codot/app/view/common/codot_app_bar.dart';
+import 'package:codot/app/view/home_page.dart/home_page.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends BaseView<MainPageController> {
@@ -37,7 +38,7 @@ class MainPage extends BaseView<MainPageController> {
     return TabBarView(
       controller: controller.tabController,
       children: [
-        Container(),
+        HomePage(),
         Container(),
         Container(),
         Container(),

@@ -96,6 +96,10 @@ class UserSelfIntroduce extends StatelessWidget {
         color: AppColors.pageBackground,
         borderRadius: BorderRadius.circular(8.r),
       ),
+      child: Padding(
+        padding: REdgeInsets.all(8.w),
+        child: Text('userIntroduce'),
+      ),
     );
   }
 }
